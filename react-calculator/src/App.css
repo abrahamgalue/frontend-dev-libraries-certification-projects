@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  background-color: #000;
+  font-family: Lato, sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  height: 600px;
+  padding: 19px;
+  background-color: #99c9ff;
+  border-radius: 20px;
+}
+
+.row {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-message {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  top: 800px;
+  padding: 25px;
+  text-align: center;
+  background-color: #bd4039;
+  width: 400px;
+  border-radius: 25px;
+}

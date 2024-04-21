@@ -1,0 +1,36 @@
+.button-container {
+  align-items: center;
+  background-color: #1b1b32;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex: 1 1;
+  font-size: 38px;
+  font-weight: bold;
+  height: 83px;
+  justify-content: center;
+  margin: 4px;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.button-container:hover {
+  opacity: 0.85;
+}
+
+.button-container:active {
+  scale: 0.90;
+}
+
+.operator {
+  color: #ac0246;
+}
+
+.equal {
+  background: #ac0246;
+}
+
+.operator:hover {
+  opacity: 0.85;
+}
