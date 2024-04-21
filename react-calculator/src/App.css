@@ -1,46 +1,45 @@
 *,
 *::after,
 *::before {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .main {
-  height: 100vh;
+  align-items: center;
   background-color: #000;
-  font-family: Lato, sans-serif;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  font-family: Lato, sans-serif;
+  gap: 1.125rem;
+  height: 100vh;
   justify-content: center;
-  align-items: center;
 }
 
 .container {
-  width: 400px;
-  height: 600px;
-  padding: 19px;
   background-color: #99c9ff;
   border-radius: 20px;
+  height: 600px;
+  padding: 19px;
+  width: 400px;
 }
 
 .row {
-  margin: 4px;
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
+  margin: 4px;
 }
 
 .error-message {
+  background-color: #bd4039;
+  border-radius: 25px;
   color: #fff;
-  font-weight: bold;
   font-size: 20px;
-  position: absolute;
-  top: 800px;
+  font-weight: bold;
   padding: 25px;
   text-align: center;
-  background-color: #bd4039;
   width: 400px;
-  border-radius: 25px;
 }
