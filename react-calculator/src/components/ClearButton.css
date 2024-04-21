@@ -2,6 +2,7 @@
   align-items: center;
   background-color: #1b1b32;
   border-radius: 45px;
+  border: none;
   color: white;
   cursor: pointer;
   display: flex;

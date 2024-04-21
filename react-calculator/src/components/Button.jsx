@@ -6,13 +6,13 @@ export default function Button({ children, addInput }) {
   }
 
   return (
-    <div
+    <button
       className={`button-container ${esOperador(children) ? 'operator' : ''}${
         children === '=' ? 'equal' : ''
       }`.trimEnd()}
       onClick={() => addInput(children)}
     >
       {children}
-    </div>
+    </button>
   )
 }
