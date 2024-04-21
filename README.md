@@ -15,3 +15,4 @@ Este es mi repositorio de proyectos con los cuales voy a conseguir la **certific
 Los **proyectos principales** para obtener el certificado y que se incluyen son:
 
 - [Random Quote Machine](/random-quote-machine/)
+- [React Calculator](/react-calculator/)
