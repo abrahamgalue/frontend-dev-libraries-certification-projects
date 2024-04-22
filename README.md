@@ -16,3 +16,4 @@ Los **proyectos principales** para obtener el certificado y que se incluyen son:
 
 - [Random Quote Machine](/random-quote-machine/)
 - [React Calculator](/react-calculator/)
+- [25 + 5 Clock](/25-plus-5-clock/)
