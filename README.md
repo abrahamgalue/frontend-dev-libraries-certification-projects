@@ -15,6 +15,6 @@ Este es mi repositorio de proyectos con los cuales voy a conseguir la **certific
 Los **proyectos principales** para obtener el certificado y que se incluyen son:
 
 - [Random Quote Machine](/random-quote-machine/)
+- [Markdown Previewer](/markdown-preview/)
 - [React Calculator](/react-calculator/)
 - [25 + 5 Clock](/25-plus-5-clock/)
-- [Markdown Previewer](/markdown-preview/)
