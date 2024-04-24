@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+  border: 0;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 0;
+}
+
+body {
+  background-color: #121212;
+}
+
+#app {
+  display: grid;
+  height: 100vh;
+  place-content: center;
+}
+
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, minmax(100px, 125px));
+  place-content: center;
+  width: 400px;
+}
+
+.drum-pad {
+  background-color: #252525;
+  border-radius: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.drum-pad:hover {
+  background-color: #1a1a1a;
+
+}
+
+.drum-pad:active {
+  transform: scale(0.9);
+}
+
+.drum-pad:focus-visible {
+  transform: scale(0.9);
+  background-color: #1a1a1a;
+  outline: none;
+}
+
+.display-text {
+  color: #1ed760;
+  font-size: 24px;
+  grid-column: 1 / -1;
+  height: 34px;
+  text-align: center;
+}
+
+.header-title {
+  margin: 0 0 50px 0;
+  text-align: center;
+}
