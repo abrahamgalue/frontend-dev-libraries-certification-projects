@@ -97,7 +97,7 @@ export default function App() {
   const title = timingType === TIMING_TYPES.session ? 'Session' : 'Break'
 
   return (
-    <div>
+    <>
       <div className='container'>
         <h2>25 + 5 Clock</h2>
         <div className='length-container'>
@@ -177,6 +177,6 @@ export default function App() {
         preload='auto'
         src='https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav'
       />
-    </div>
+    </>
   )
 }
