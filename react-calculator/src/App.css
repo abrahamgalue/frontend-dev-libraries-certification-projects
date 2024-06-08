@@ -6,24 +6,35 @@
   padding: 0;
 }
 
-.main {
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+#app {
   align-items: center;
-  background-color: #000;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  font-family: Lato, sans-serif;
-  gap: 1.125rem;
-  height: 100vh;
+  height: 100%;
   justify-content: center;
+}
+
+.main {
+  font-family: Lato, sans-serif;
+  position: relative;
 }
 
 .container {
   background-color: #99c9ff;
   border-radius: 20px;
   height: 600px;
+  max-width: 400px;
   padding: 19px;
-  width: 400px;
+  width: 80vw;
+  margin-bottom: 20px;
 }
 
 .row {
@@ -39,7 +50,9 @@
   color: #fff;
   font-size: 20px;
   font-weight: bold;
+  max-width: 400px;
   padding: 25px;
+  position: absolute;
   text-align: center;
-  width: 400px;
+  width: 80vw;
 }
