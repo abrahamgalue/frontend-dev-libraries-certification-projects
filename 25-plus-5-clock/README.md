@@ -8,7 +8,7 @@
 
 > 🧩 Aquí puedes ver su [**Live Demo.**](https://25-5-clock-abrahamgalue.netlify.app/)
 
-![vista-previa](./public/preview/01-page-preview.png)
+![vista-previa](public/preview/01-page-preview.png)
 
 ## 🚀 Descripción
 
