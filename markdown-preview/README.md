@@ -8,7 +8,7 @@
 
 > 🧩 Aquí puedes ver su [**Live Demo.**](https://markdown-preview-abrahamgalue.netlify.app/)
 
-![vista-previa](./public/preview/01-page-preview.png)
+![vista-previa](public/preview/01-page-preview.png)
 
 ## 🚀 Descripción
 
