@@ -8,7 +8,7 @@
 
 > 🗝 Puedes verificar aquí la veracidad de mi [**certificado**](https://www.freecodecamp.org/certification/AbrahamGalue/front-end-development-libraries).
 
-![vista-previa](./public/preview/01-certificate-preview.jpg)
+![vista-previa](public/preview/01-certificate-preview.jpg)
 
 ## 🚀 Descripción
 
