@@ -6,7 +6,7 @@
 
 ### Certificado de freeCodeCamp
 
-> 🗝 Puedes verificar aquí la veracidad de mi [**certificado**](https://www.freecodecamp.org/certification/AbrahamGalue/front-end-development-libraries).
+> 🗝 Puedes verificar aquí la veracidad de mi [**certificado**](https://www.freecodecamp.org/certification/abrahamgalue/front-end-development-libraries).
 
 ![vista-previa](public/preview/01-certificate-preview.jpg)
 
